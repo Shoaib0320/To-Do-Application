@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <title>To-Do App</title>
+</head>
+<body>
+
+<h1 id="h1">To-Do List</h1>
+
+<div id="myDIV" class="header">
+  <input type="text" id="myInput" placeholder="Add To-Do">
+  <button id="color" onclick="newElement()" class="addBtn">Add To-Do</button>
+  <button id="red" onclick="delall()">Delete All</button>
+
+
+    <ul id="myUL">
+    <!-- To-Do items will be dynamically added here -->
+    </ul>
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
